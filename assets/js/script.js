@@ -10,11 +10,11 @@ var specialCharacters = "!@#$%^&*()";
 
 function generatePassword() {
   // Changed password to passwordGenerated in order to make it longer so I can tell which variable is which
-  var passwordGenerated = " ";
+  var passwordGenerated = "";
   // TODO: add code to generate the password here
 
   // Added Variable for the required strings for the password
-  var requiredKeyString = " ";
+  var requiredKeyString = "";
 
   // Added a variable for how long the password can be
   var lengthPass = window.prompt("Enter a number from 8 to 128 for password length.");
